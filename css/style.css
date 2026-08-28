@@ -53,7 +53,7 @@ header {
 .pins-logo {
     display: block;
 
-    width: min(90%, 1200px);
+    width: min(90%, 2000px);
     height: auto;
 
     margin: 0 auto;
