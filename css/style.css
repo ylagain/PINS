@@ -1,34 +1,32 @@
+/* -------------------------
+   PINS COLORS
+------------------------- */
+
 :root {
-    --pins-top: #00C9FF;
-    --pins-middle: #00B3FF;
-    --pins-bottom: #009CFF;
+    --pins-top: #482a8c;
+    --pins-middle: #9b3f92;
+    --pins-bottom: #ee7956;
 }
 
 
+/* -------------------------
+   BASE PAGE
+------------------------- */
 
 * {
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
+    margin: 0;
     min-height: 100%;
 }
 
 body {
-    margin: 0;
     min-height: 100vh;
 
     background:
-        radial-gradient(
-            circle at 20% 15%,
-            rgba(255, 255, 255, 0.10),
-            transparent 30%
-        ),
-        radial-gradient(
-            circle at 85% 75%,
-            rgba(255, 255, 255, 0.08),
-            transparent 30%
-        ),
         linear-gradient(
             180deg,
             var(--pins-top) 0%,
@@ -36,12 +34,60 @@ body {
             var(--pins-bottom) 100%
         );
 
-    background-attachment: fixed;
-
     color: white;
 
-    font-family:
-        Arial,
-        Helvetica,
-        sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+}
+
+
+/* -------------------------
+   HEADER
+------------------------- */
+
+header {
+    padding-top: 40px;
+}
+
+.game-title {
+    margin: 0;
+
+    font-size: 50px;
+}
+
+
+/* -------------------------
+   NAVIGATION
+------------------------- */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------------------
+   DESCRIPTION
+------------------------- */
+
+.game-description {
+    max-width: 600px;
+
+    margin: 50px auto 0;
+
+    padding: 0 20px;
+
+    font-size: 20px;
+    line-height: 1.5;
 }
