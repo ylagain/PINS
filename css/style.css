@@ -75,7 +75,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline wavy #70f8fa 7px;
 }
 
 
@@ -86,11 +86,11 @@ nav a:hover {
 .game-description {
     max-width: 600px;
 
-    margin: 50px auto 0;
+    margin: 30px auto 25px;
 
     padding: 0 20px;
 
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
@@ -111,7 +111,7 @@ nav a:hover {
    width: min(90%, 512px);
    height: auto;
 
-   margin: 600px auto 100px;
+   margin: 0 auto 100px;
 }
 
 .image-container {
@@ -124,6 +124,10 @@ nav a:hover {
     height: auto;        
 }
 
+.Subtitle{
+    font-size: 40px;
+    margin: 50px auto 50px;
+}
 
 
 
