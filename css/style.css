@@ -129,7 +129,12 @@ nav a:hover {
     margin: 50px auto 50px;
 }
 
+.Promo{
+   width: min(90%, 1888px);
+   height: auto;
 
+   margin: 10px auto 0;
+}
 
 
 
