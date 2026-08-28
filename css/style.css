@@ -105,6 +105,13 @@ nav a:hover {
    margin: 200px auto 200px;
 }
 
+.AppIcon{
+   width: min(90%, 512px);
+   height: auto;
+
+   margin: 1500px auto 200px;
+}
+
 
 
 
