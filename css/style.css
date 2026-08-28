@@ -47,15 +47,17 @@ body {
 ------------------------- */
 
 header {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
-.game-title {
-    margin: 0;
+.pins-logo {
+    display: block;
 
-    font-size: 50px;
+    width: min(90%, 1200px);
+    height: auto;
+
+    margin: 0 auto;
 }
-
 
 /* -------------------------
    NAVIGATION
