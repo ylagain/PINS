@@ -90,18 +90,20 @@ nav a:hover {
 
     padding: 0 20px;
 
-    font-size: 20px;
+    font-size: 80px;
     line-height: 1.5;
 }
 
 
 .SeperatorLarge{
-   max-width: 1900px
+   width: min(90%, 1900px);
+   height: min(90%, 200px);;
    margin: 400px auto 400px;
 }
 
 .SeperatorSmall{
-   max-width: 1400px
+   width: min(90%, 950px);
+   height: min(90%, 100px);;
    margin: 200px auto 200px;
 }
 
@@ -109,7 +111,7 @@ nav a:hover {
    width: min(90%, 512px);
    height: auto;
 
-   margin: 1500px auto 200px;
+   margin: 600px auto 100px;
 }
 
 
