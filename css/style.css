@@ -114,7 +114,15 @@ nav a:hover {
    margin: 600px auto 100px;
 }
 
+.image-container {
+    display: flex;       
+    gap: 20px;          
+}
 
+.image-container img {
+    width: 50%;          
+    height: auto;        
+}
 
 
 
