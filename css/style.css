@@ -86,7 +86,7 @@ header {
 .game-description {
     max-width: 600px;
 
-    margin: 30px auto 25px;
+    margin: 5px auto 25px;
 
     padding: 0 20px;
 
@@ -200,7 +200,7 @@ header {
 nav {
     margin: 0 auto 120px;
 
-    font-size: 80px;
+    font-size: 70px;
 }
 
 nav a {
@@ -208,14 +208,14 @@ nav a {
 
     text-decoration: none;
 
-    margin: 0 10px;
+    margin: 0 70px;
 }
 
 nav a:hover {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: #70f8fa;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 2px;
 }
 
 
