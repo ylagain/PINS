@@ -8,6 +8,22 @@
     --pins-bottom: #009cff;
 }
 
+/* -------------------------
+   PRIVACY POLICY PAGE
+------------------------- */
+
+body.privacy-page {
+    background:
+        linear-gradient(
+            180deg,
+            var(--pins-top) 0%,
+            var(--pins-middle) 50%,
+            var(--pins-bottom) 100%
+        );
+
+    background-attachment: fixed;
+}
+
 
 /* -------------------------
    BASE PAGE
