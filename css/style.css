@@ -209,6 +209,7 @@ nav a {
     text-decoration: none;
 
     margin: 0 35px;
+    font-weight: bold;
 }
 
 nav a:hover {
