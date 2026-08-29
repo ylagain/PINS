@@ -56,7 +56,7 @@ header {
 .pins-logo {
     display: block;
 
-    width: min(90%, 2200px);
+    width: min(90%, 1300px);
     height: auto;
 
     margin: 0 auto;
@@ -89,7 +89,7 @@ header {
     width: min(90%, 1900px);
     height: min(90%, 200px);
 
-    margin: 100px auto;
+    margin: 60px auto;
 }
 
 .SeperatorSmall {
