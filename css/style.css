@@ -200,7 +200,7 @@ header {
 nav {
     margin: 0 auto 120px;
 
-    font-size: 70px;
+    font-size: 35px;
 }
 
 nav a {
@@ -208,7 +208,7 @@ nav a {
 
     text-decoration: none;
 
-    margin: 0 70px;
+    margin: 0 35px;
 }
 
 nav a:hover {
