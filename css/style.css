@@ -280,4 +280,9 @@ nav a:hover {
        height: auto;
    }
 
+   .image-container img {
+       width: 20%;
+       height: auto;
+   }
+
 }
