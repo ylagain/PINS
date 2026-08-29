@@ -198,9 +198,9 @@ header {
 ------------------------- */
 
 nav {
-    margin: 0 auto 50px;
+    margin: 0 auto 120px;
 
-    font-size: 18px;
+    font-size: 30px;
 }
 
 nav a {
@@ -208,14 +208,14 @@ nav a {
 
     text-decoration: none;
 
-    margin: 0 8px;
+    margin: 0 10px;
 }
 
 nav a:hover {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: #70f8fa;
-    text-decoration-thickness: 7px;
+    text-decoration-thickness: 3px;
 }
 
 
